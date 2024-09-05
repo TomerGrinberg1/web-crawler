@@ -63,11 +63,11 @@ Page URL: The full URL of the page.
 
 Page Content: The main textual content extracted from headers (h1, h2, h3) and paragraphs (p).
 
-## Saving Data
+### Saving Data
 
 By default, the crawler saves the extracted data into an Excel file called web_crawl_data.xlsx. You can change the filename or export it as a CSV by modifying the save_to_excel function in the WebCrawler class.
 
-## Command-Line Usage
+### Command-Line Usage
 You can configure the base URL and other parameters directly within the main.py file.
 
 ```python
