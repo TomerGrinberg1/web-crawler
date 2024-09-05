@@ -58,12 +58,16 @@ Crawling a Website
 The web crawler takes a base URL as input (I have used Jeen.ai website as default), crawls the main page, and follows the links found on that page (up to a specified depth). It extracts and saves the following information for each page:
 
 Page Name: The title of the page.
-Page URL: The full URL of the page.
-Page Content: The main textual content extracted from headers (h1, h2, h3) and paragraphs (p).
-Saving Data
-By default, the crawler saves the extracted data into an Excel file called web_crawl_data.xlsx. You can change the filename or export it as a CSV by modifying the save_to_excel or save_to_csv functions in the WebCrawler class.
 
-Command-Line Usage
+Page URL: The full URL of the page.
+
+Page Content: The main textual content extracted from headers (h1, h2, h3) and paragraphs (p).
+
+## Saving Data
+
+By default, the crawler saves the extracted data into an Excel file called web_crawl_data.xlsx. You can change the filename or export it as a CSV by modifying the save_to_excel function in the WebCrawler class.
+
+## Command-Line Usage
 You can configure the base URL and other parameters directly within the main.py file.
 
 ```python
