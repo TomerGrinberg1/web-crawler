@@ -55,7 +55,7 @@ python main.py
 ## How to Use
 
 Crawling a Website
-The web crawler takes a base URL as input (I have used Jeen.ai website as default), crawls the main page, and follows the links found on that page (up to a specified depth). It extracts and saves the following information for each page:
+The web crawler takes a base URL as input (I have used www.bbc.com as default), crawls the main page, and follows the links found on that page (up to a specified depth). It extracts and saves the following information for each page:
 
 Page Name: The title of the page.
 
@@ -74,7 +74,7 @@ You can configure the base URL and other parameters directly within the main.py 
 from web_crawler import WebCrawler
 
 if __name__ == "__main__":
-    desire_url = 'https://jeen.ai/'  # Set your target URL
+    desire_url = 'https://www.bbc.com/'  # Set your target URL
     
     crawler = WebCrawler(desire_url)
     
